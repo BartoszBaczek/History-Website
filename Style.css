@@ -17,7 +17,6 @@ h2 {
  img {
     width: 250px; 
     height: 300px;
-    position: relative; left:770px;
  }
 
  span {
@@ -40,4 +39,10 @@ header {
    width: 910px;
    margin-left: 110px;
    margin: 0 auto;
+}
+
+.header_container {
+   display: flex;
+   flex-flow: row;
+   justify-content: space-between;
 }
